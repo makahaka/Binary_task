@@ -1,0 +1,150 @@
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+    margin: 0;
+    padding: 0;
+    vertical-align:baseline;
+    font: inherit;
+}
+
+article,footer, header, nav, menu,{
+    display: block;
+}
+
+body {
+	font: 100%/1.5em 'Muli', Arial, Helvetica, sans-serif;
+	position: relative;
+	width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+a {
+    text-decoration: none;
+    color: #7B68EE;
+}
+
+a:hover {
+    color: #00BFFF;
+ }
+
+header {
+    background: #B0E0E6;
+    padding: 2%;
+}
+
+header h1 {
+	font-size: 3.2em;
+	font-weight: bold;
+	margin-right: 5em;
+	text-shadow: 2px 1px white;
+}
+
+nav {
+	margin: 3% 2%;
+    text-align: center;
+    height: 20px;
+}
+
+nav li {
+    float: left;
+    margin-right: 4%;
+    border: solid 1px #4682B4;
+    padding: 1%;
+    border-radius: 3px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav select{
+    display: none;
+}    
+#main{
+    float: left;
+    width: 70.1%;
+    padding-left:3%;
+} 
+#main img {
+	float: left;
+}
+#main p {
+    font-size:1em;
+    margin: 1.2em 0;
+}
+img {
+	width: 30%;
+}
+aside {
+   width: 19.1%;
+    padding-right: 3.9%;
+    float:right;
+}
+aside h2{
+    font-size: 1.4em;
+    margin-top: 1.5em;
+    padding: 2%;
+}
+aside p{
+    font-size:1em;
+    margin: 0;
+    padding-top:0;
+    padding-left: 2%;
+}
+footer {
+	clear: both;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	background: #B0E0E6;
+	padding: 1em;
+
+}
+
+@media only screen and (max-width:1024px) {
+body {
+    max-width: 640px;
+}
+header {
+	background: #B0E0E6;
+    padding: 2%;
+}
+header h1 {
+	font-size: 3.2em;
+	font-weight: bold;
+	margin-right: 5em; 
+	text-shadow: 2px 1px white;
+}
+nav select{
+    display: block;
+}
+nav ul{
+    display: none;
+}
+
+nav select {
+    display: block;
+    cursor: pointer;
+    width: 98%;
+    padding:1%;
+    border: none;
+    background-color:#00BFFF;
+    font-size: 1.2em;
+    margin-right: 2%;
+}
+aside {
+    width: 90%;
+    clear: both;
+    padding-left:3.9%;
+    padding-right:0;
+    float:left;
+}
+aside h2{
+    font-size: 1.4em;
+    margin-top: 1.5em;
+    padding: 2%;
+}
+aside p{
+    font-size:1em;
+    margin: 0;
+    padding-top:0;
+    padding-left: 2%;
+}
